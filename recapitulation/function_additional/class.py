@@ -2,7 +2,7 @@ class Container:
     is_empty = True
     value = None
 
-    def __str__():
+    def print():
         if Container.is_empty == True:
             return "Container is empty"
         else:
@@ -18,4 +18,4 @@ def unsetContainerValue():
 
 setContainerValue(10)
 
-print(container_0)
+print(Container.print())
